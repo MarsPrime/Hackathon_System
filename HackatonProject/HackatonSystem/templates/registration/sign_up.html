@@ -11,14 +11,36 @@
 <main>
     <form>
         <div>
-            <label for="login">Логин:</label>
-            <input type="text" id="login" name="login" required>
+            <label for="surname">Фамилия*:</label>
+            <input type="text" id="surname" name="surname" required>
         </div>
 
         <div>
-            <label for="password">Пароль:</label>
+            <label for="name">Имя*:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+            <label for="patronymic">Отчество (при наличии):</label>
+            <input type="text" id="patronymic" name="patronymic">
+        </div>
+
+        <div>
+            <label for="email">Почта*:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="phone">Номер телефона*:</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+
+        <div>
+            <label for="password">Придумайте пароль*:</label>
             <input type="password" id="password" name="password" required>
         </div>
+
+        <input type="submit" value="Создать">
     </form>
 
     <nav>
